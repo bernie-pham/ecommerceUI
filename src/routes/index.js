@@ -14,7 +14,7 @@ const publicRoutes = [
 ];
 
 const privateRoutes = [
-    {path: '/cart', component: CartPage, layout: ProfileLayout}
+    {path: '/cart', component: CartPage, layout: DefaultLayout}
 ];
 
 export { publicRoutes, privateRoutes };
