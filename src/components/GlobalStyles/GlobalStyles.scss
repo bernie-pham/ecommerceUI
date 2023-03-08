@@ -1,0 +1,20 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+:root {
+    --primary: #e26cfe;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    line-height: 1.15;
+    font-size: 12px;
+    text-rendering: optimizeSpeed;
+}
