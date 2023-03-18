@@ -1,0 +1,94 @@
+.price:before,
+.subtotal:before,
+.subtotal-value:before,
+.total-value:before,
+.promo-value:before {
+    content: '£';
+}
+
+.item,
+.price,
+.quantity,
+.subtotal,
+.product-img,
+.product-details {
+    float: left;
+}
+
+.price,
+.quantity,
+.subtotal {
+    width: 15%;
+}
+
+.subtotal {
+    text-align: right;
+}
+
+h1 {
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    margin: 0.75rem 0 0;
+}
+
+.wrapper {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.item {
+    width: 55%;
+    // white-space: nowrap;
+}
+
+.product-frame {
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+.product-img {
+    width: 40%;
+}
+
+.product-details {
+    width: 60%;
+    margin-top: 25px;
+}
+
+.product-details {
+    padding: 0 1.5rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.btn-remove {
+    bottom: 1.125rem;
+    float: right;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 45%;
+}
+
+.btn-remove button {
+    background-color: transparent;
+    color: #777;
+    float: none;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 6px;
+}

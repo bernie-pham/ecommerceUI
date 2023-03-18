@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
 :root {
-    --primary: #e26cfe;
+    --primary: #cf4b4b;
     --black: #000;
     --text-color: #333;
+    --white: #fff;
 
-    // Default layout 
+    // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1180px;
 }
@@ -25,16 +26,22 @@ body {
     line-height: 1.15;
     font-size: 12px;
     text-rendering: optimizeSpeed;
+    background:#ddd;
+    // display: flex;
 }
 
-
-
-button, input, [tabindex] {
+button,
+input,
+[tabindex] {
     outline: none;
     border: none;
 }
 
 a[href] {
-    color: var(--text-color);
+    // color: var(--text-color);
     text-decoration: none;
+}
+
+.col-md-6 {
+    width: 50%;
 }
